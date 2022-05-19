@@ -1,11 +1,10 @@
-
 /*@萝卜
 APP : 饿了么
 饿了么吃货豆，需要点外卖同学的福利
 脚本说明：目前只支持部分任务，500，1000吃货豆换无门槛外卖红包
 重写：https://h5.ele.me/svip/task-list url script-request-header https://gitee.com/xiecoll/radish-script/raw/master/ELM/lb_elm.js
 青龙环境变量  export elmck='.............'
-抓包 h5.ele.me 域名下的任何url 请求头中的Cookie
+抓包 h5.ele.me 域名下的任何url 请求头中的Cookie 
 获取数据 饿了么App->我的-> 赚吃货豆
 多账户 @
 cron 0,59 0,9,18 * * * lb_elm.js
